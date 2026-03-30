@@ -23,7 +23,7 @@ Nowy akapit oddzielasz pustą linią.
 
 [Link](https://example.com)
 
-![Opis obrazka](image.png)
+![Opis obrazka](medicine_2_test.png)
 
 ---
 
