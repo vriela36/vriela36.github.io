@@ -1,0 +1,71 @@
+= Tytuł dokumentu
+Autor
+:toc:
+:icons: font
+
+== Sekcja 1
+
+To jest zwykły akapit.
+
+Nowy akapit zaczyna się po pustej linii.
+
+== Formatowanie tekstu
+
+To jest *pogrubienie*.
+To jest _kursywa_.
+To jest `kod inline`.
+
+== Listy
+
+* element 1
+* element 2
+* element 3
+
+. pierwszy
+. drugi
+. trzeci
+
+termin:: opis terminu
+API:: interfejs programistyczny
+
+== Linki
+
+https://asciidoctor.org
+link:https://asciidoctor.org[Asciidoctor]
+
+== Obraz
+
+image::diagram.png[Diagram, width=400]
+
+== Kod
+
+[source,java]
+----
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
+----
+
+== Cytat
+
+[quote]
+____
+To jest cytat blokowy.
+____
+
+== Tabela
+
+[cols="1,2",options="header"]
+|===
+| Nazwa | Opis
+| A     | Pierwsza wartość
+| B     | Druga wartość
+|===
+
+== Uwaga
+
+NOTE: To jest notatka.
+TIP: To jest podpowiedź.
+WARNING: To jest ostrzeżenie.
