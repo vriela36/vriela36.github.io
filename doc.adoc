@@ -1,5 +1,5 @@
-= Tytuł dokumentu
-Autor
+= Dokumentacja projektu
+Gabriela Froń
 :toc:
 :icons: font
 
@@ -11,14 +11,14 @@ Nowy akapit zaczyna się po pustej linii.
 
 == Formatowanie tekstu
 
-To jest *pogrubienie*.
-To jest _kursywa_.
-To jest `kod inline`.
+*pogrubienie*.
+_kursywa_.
+`kod inline`.
 
 == Listy
 
-* element 1
-* element 2
+*  1
+*  2
 * element 3
 
 . pierwszy
@@ -31,6 +31,7 @@ API:: interfejs programistyczny
 == Linki
 
 https://asciidoctor.org
+
 link:https://asciidoctor.org[Asciidoctor]
 
 == Obraz
@@ -39,16 +40,12 @@ image::diagram.png[Diagram, width=400]
 
 == Kod
 
-[source,java]
+[source,javascript]
 ----
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello");
-    }
-}
+console.log('Miau');
 ----
 
-== Cytat
+== Cytaty
 
 [quote]
 ____
@@ -60,8 +57,8 @@ ____
 [cols="1,2",options="header"]
 |===
 | Nazwa | Opis
-| A     | Pierwsza wartość
-| B     | Druga wartość
+| A     | Pierwsza 
+| B     | Druga 
 |===
 
 == Uwaga
